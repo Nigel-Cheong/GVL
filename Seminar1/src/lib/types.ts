@@ -3,4 +3,5 @@ export interface JournalEntry {
   text: string;
   date: string;
   sentiment: string;
+  images?: string[];
 }
